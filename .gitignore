@@ -1,0 +1,15 @@
+
+\.vs/
+
+x64/
+
+*.log
+*.tlog
+*.pdb
+*.vcxproj.filters
+*.user
+*.idb
+*.obj
+*.vcxproj
+*.sln
+Kap_02-07/Kap_02.vcxproj.filters
