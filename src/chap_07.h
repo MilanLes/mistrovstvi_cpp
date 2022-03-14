@@ -15,10 +15,10 @@
 struct box
 {
 	string znacka;
-	float dlzka;
-	float sirka;
-	float vyska;
-	float objem;
+	float dlzka = 0;
+	float sirka = 0;
+	float vyska = 0;
+	float objem = 0;
 };
 
 void function_direct(int *arr, int size, int fill);
@@ -66,7 +66,7 @@ struct student
 {
 	string fullname;
 	string hobby;
-	int ooplevel;
+	int ooplevel=0;
 };
 
 int getinfo(student pa[], int n);

@@ -15,6 +15,7 @@
 #include "chap_05.h"
 #include "chap_06.h"
 #include "chap_07.h"
+#include "chap_08.h"
 
 int chapter_2()
 {
@@ -199,6 +200,6 @@ int chapter_7()
 int main()
 {
 	int iResult = 0;
-	iResult = chapter_7();
+	iResult = main8();
 	return iResult;
 }
